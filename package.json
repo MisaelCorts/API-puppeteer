@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+ "postinstall": "npx puppeteer browsers install chrome"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +15,7 @@
     "axios": "^1.13.2",
     "cheerio": "^1.1.2",
     "express": "^5.1.0",
+    "p-queue": "^9.0.1",
     "puppeteer": "^24.30.0"
-  },
-  "devDependencies": {}
+  }
 }
